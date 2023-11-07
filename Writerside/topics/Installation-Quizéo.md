@@ -1,4 +1,4 @@
-# Installation Quizéo 
+# Installation et run du projet
 
 Guide d'installation et de run pour Quizéo front et les micro-services. Si vous
 rencontrez des problèmes, demandez à Hugo ou Nicolas.

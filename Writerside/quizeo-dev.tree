@@ -3,11 +3,12 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="quizeo-dev"
-                 name="Quizéo développement"
+                 name="Quizéo"
                  start-page="Default-topic.md">
 
     <toc-element topic="Default-topic.md"/>
     <toc-element topic="Installation-Quizéo.md">
         <toc-element topic="Front-end.md"/>
     </toc-element>
+    <toc-element topic="Infrastructure.md"/>
 </instance-profile>

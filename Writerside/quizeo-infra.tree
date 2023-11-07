@@ -2,9 +2,3 @@
 <!DOCTYPE instance-profile
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
-<instance-profile id="quizeo-infra"
-                 name="Quizéo infrastructure"
-                 start-page="quiz-o-infrastructure.md">
-
-    <toc-element topic="quiz-o-infrastructure.md"/>
-</instance-profile>
