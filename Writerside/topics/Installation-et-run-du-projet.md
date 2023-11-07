@@ -16,11 +16,13 @@ Soyez-sûr d'avoir les outils suivants installés à la bonne version :
 - Yarn LTS
 - XCode à jour _(si sous Mac)_
 - Webstorm à jour
+- Docker Desktop
 
 ## Clone les projets
 
-Nous allons installer les projets dans votre home directory
-
+Procédure
+: Nous allons installer les projets dans votre home directory
+:
 1. Allez à dans votre home directory et créez un dossier `Work`
 
    ```bash
@@ -28,7 +30,7 @@ Nous allons installer les projets dans votre home directory
    
    cd ~/Work
    ```
-
+:
 2. Clone les projets
 
    ```Bash
@@ -36,5 +38,6 @@ Nous allons installer les projets dans votre home directory
    
    git clone https://github.com/Tabuleo/quizeo-microservices.git
    ```
+
 
 Nous pouvons maintenant passer au setup du front-end.

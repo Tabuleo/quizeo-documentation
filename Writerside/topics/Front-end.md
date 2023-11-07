@@ -22,7 +22,7 @@ du projet.
 <tabs>
     <tab title="Depuis Webstorm">
         Sur Webstorm, vous avez les configurations pré-installés. Il vous suffit de lancer le script `dev`.
-        <img src="webstorm_config_front.png" title="Configuration Webstorm"/>
+        <img src="webstorm_config_front.png" title="Configuration Webstorm" width="320"/>
     </tab>
     <tab title="En CLI">
         Executez la commande ci-dessous.

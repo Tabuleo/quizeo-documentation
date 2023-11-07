@@ -9,6 +9,8 @@
     <toc-element topic="Default-topic.md"/>
     <toc-element topic="Installation-et-run-du-projet.md">
         <toc-element topic="Front-end.md"/>
+        <toc-element topic="Micro-services.md"/>
+        <toc-element topic="Données-initiales-à-ajouter.md"/>
     </toc-element>
     <toc-element topic="Infrastructure.md"/>
 </instance-profile>
