@@ -1,0 +1,34 @@
+
+> ff-default-page@1.0.0 start
+> node server.js
+
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::2706
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Object.<anonymous> (/Users/hugo/Personnal/Dev/sandbox/ff-default-page/server.js:65:4)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1767:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 2706
+}
+
+Node.js v18.16.0
+Unable to listen on port 27017: Listeners failed to create with the following errors: [unable to create listener: Error listen tcp4 127.0.0.1:27017: bind: address already in use unable to create listener: Error listen tcp6 [::1]:27017: bind: address already in use]
+error: unable to listen on any of the requested ports: [{27017 27017}]
+Unable to listen on port 5432: Listeners failed to create with the following errors: [unable to create listener: Error listen tcp4 127.0.0.1:5432: bind: address already in use unable to create listener: Error listen tcp6 [::1]:5432: bind: address already in use]
+error: unable to listen on any of the requested ports: [{5432 5432}]
