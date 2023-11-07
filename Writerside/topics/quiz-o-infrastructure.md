@@ -1,3 +1,0 @@
-# About Quizéo infrastructure
-
-Ici c'est l'infra Kube... OVH...
