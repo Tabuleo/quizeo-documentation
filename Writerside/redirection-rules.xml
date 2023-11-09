@@ -10,4 +10,8 @@
         <description>Created after removal of "Overview" from Quizéo</description>
         <accepts>Overview.html</accepts>
     </rule>
+    <rule id="7da3070">
+        <description><![CDATA[Created after removal of "<Sauvegarde-des-instances.md>" from Quizéo]]></description>
+        <accepts>Sauvegarde-des-instances.html</accepts>
+    </rule>
 </rules>
